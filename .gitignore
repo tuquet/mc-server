@@ -8,3 +8,20 @@ versions/
 *.jar
 *.zip
 *.tar.gz
+
+# --- Runtime Data & Player State ---
+usercache.json
+banned-ips.json
+banned-players.json
+ops.json
+whitelist.json
+version_history.json
+
+# --- Database Files (from plugins) ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
