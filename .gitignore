@@ -1,0 +1,10 @@
+world/
+world_nether/
+world_the_end/
+logs/
+cache/
+libraries/
+versions/
+*.jar
+*.zip
+*.tar.gz
