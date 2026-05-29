@@ -1,0 +1,86 @@
+# ============================================
+# NoFarmlandTrample - Русский языковой файл
+# Автор: hiteex | Версия: 2.0.0
+# ============================================
+prefix: "&6[NoFarmTrample]&r "
+
+messages:
+  # Сообщения защиты
+  trample-prevented: "&cВытаптывание грядок отключено на этом сервере!"
+  trample-warning: "&eВнимание: &cВы вытаптываете грядку!"
+  crop-prevented: "&cВы не можете ломать незрелые посевы!"
+  actionbar-prevented: "&c&lВытаптывание грядок запрещено!"
+
+  # Ответы команд
+  reload-success: "&aКонфигурация успешно перезагружена!"
+  reload-fail: "&cОшибка при перезагрузке конфигурации!"
+  no-permission: "&cУ вас нет прав для использования этой команды!"
+  protection-enabled: "&aЗащита грядок &2ВКЛЮЧЕНА&a!"
+  protection-disabled: "&cЗащита грядок &4ВЫКЛЮЧЕНА&c!"
+
+  # Режим предупреждений
+  warnmode-enabled: "&eРежим предупреждений &2ВКЛЮЧЁН&e! Игроки будут предупреждены, но смогут топтать."
+  warnmode-disabled: "&eРежим предупреждений &4ВЫКЛЮЧЕН&e! Вытаптывание полностью заблокировано."
+
+  # Статус
+  status-header: "&6&l============ NoFarmTrample Статус ============"
+  status-protection: "&8» &eЗащита: %status%"
+  status-players: "&8» &eЗащита от игроков: %status%"
+  status-mobs: "&8» &eЗащита от мобов: %status%"
+  status-crops: "&8» &eЗащита посевов: %status%"
+  status-warn-mode: "&8» &eРежим предупреждений: %status%"
+  status-language: "&8» &eЯзык: &f%lang%"
+  status-version: "&8» &eВерсия: &f%version%"
+  status-total: "&8» &eВсего предотвращено: &f%total%"
+  status-total-players: "&8» &eПопытки игроков: &f%total%"
+  status-total-mobs: "&8» &eПопытки мобов: &f%total%"
+  status-footer: "&6&l==============================================="
+
+  # Помощь
+  help-header: "&6&l============ NoFarmTrample Помощь ============"
+  help-reload: "&8» &e/nft reload &7- Перезагрузить конфигурацию"
+  help-toggle: "&8» &e/nft toggle &7- Включить/выключить защиту"
+  help-status: "&8» &e/nft status &7- Посмотреть текущий статус"
+  help-lang: "&8» &e/nft lang <en/ru> &7- Сменить язык"
+  help-stats: "&8» &e/nft stats [игрок] &7- Посмотреть статистику"
+  help-top: "&8» &e/nft top &7- Топ игроков по попыткам вытаптывания"
+  help-reset: "&8» &e/nft reset &7- Сбросить всю статистику"
+  help-info: "&8» &e/nft info &7- Информация о плагине"
+  help-warnmode: "&8» &e/nft warnmode &7- Переключить режим предупреждений"
+  help-footer: "&6&l==============================================="
+
+  # Язык
+  lang-changed: "&aЯзык изменён на &f%lang%&a!"
+  lang-not-found: "&cФайл языка '%lang%' не найден!"
+
+  # Слова статуса
+  enabled: "&2Включено"
+  disabled: "&4Выключено"
+
+  # Статистика
+  stats-header: "&6&l========== Статистика игрока =========="
+  stats-player: "&8» &eИгрок: &f%player%"
+  stats-attempts: "&8» &eПредотвращено вытаптываний: &f%count%"
+  stats-footer: "&6&l========================================"
+  stats-no-data: "&7Статистика для этого игрока отсутствует."
+
+  # Топ
+  top-header: "&6&l======= Топ вытаптывателей грядок ======="
+  top-entry: "&e%rank%. &f%player% &7- &c%count% &7попыток"
+  top-empty: "&7Статистика пока пуста."
+  top-footer: "&6&l========================================="
+
+  # Сброс
+  reset-success: "&aВся статистика сброшена!"
+  reset-confirm: "&cВведите &e/nft reset confirm &cдля подтверждения сброса!"
+
+  # Инфо
+  info-header: "&6&l=========== NoFarmTrample Инфо ==========="
+  info-name: "&8» &eНазвание: &fNoFarmlandTrample"
+  info-version: "&8» &eВерсия: &f%version%"
+  info-author: "&8» &eАвтор: &fhiteex"
+  info-server: "&8» &eСервер: &f%server%"
+  info-nms: "&8» &eNMS версия: &f%nms%"
+  info-java: "&8» &eJava: &f%java%"
+  info-supported: "&8» &eПоддержка: &f1.8 - 1.21+"
+  info-footer: "&6&l============================================"

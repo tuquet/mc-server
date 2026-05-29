@@ -1,0 +1,86 @@
+# ============================================
+# NoFarmlandTrample - English Language File
+# Author: hiteex | Version: 2.0.0
+# ============================================
+prefix: "&6[NoFarmTrample]&r "
+
+messages:
+  # Protection messages
+  trample-prevented: "&cFarmland trampling is disabled on this server!"
+  trample-warning: "&eWarning: &cYou are trampling farmland!"
+  crop-prevented: "&cYou cannot break unripe crops!"
+  actionbar-prevented: "&c&lFarmland trampling is disabled!"
+
+  # Command responses
+  reload-success: "&aConfiguration reloaded successfully!"
+  reload-fail: "&cFailed to reload configuration!"
+  no-permission: "&cYou do not have permission to use this command!"
+  protection-enabled: "&aFarmland protection &2ENABLED&a!"
+  protection-disabled: "&cFarmland protection &4DISABLED&c!"
+
+  # Warn mode
+  warnmode-enabled: "&eWarn-only mode &2ENABLED&e! Players will be warned but can still trample."
+  warnmode-disabled: "&eWarn-only mode &4DISABLED&e! Trampling is now fully blocked."
+
+  # Status
+  status-header: "&6&l============ NoFarmTrample Status ============"
+  status-protection: "&8» &eProtection: %status%"
+  status-players: "&8» &ePlayers protected: %status%"
+  status-mobs: "&8» &eMobs protected: %status%"
+  status-crops: "&8» &eCrop protection: %status%"
+  status-warn-mode: "&8» &eWarn-only mode: %status%"
+  status-language: "&8» &eLanguage: &f%lang%"
+  status-version: "&8» &eVersion: &f%version%"
+  status-total: "&8» &eTotal prevented: &f%total%"
+  status-total-players: "&8» &ePlayer attempts: &f%total%"
+  status-total-mobs: "&8» &eMob attempts: &f%total%"
+  status-footer: "&6&l============================================="
+
+  # Help
+  help-header: "&6&l============ NoFarmTrample Help ============="
+  help-reload: "&8» &e/nft reload &7- Reload configuration"
+  help-toggle: "&8» &e/nft toggle &7- Toggle protection on/off"
+  help-status: "&8» &e/nft status &7- View current status"
+  help-lang: "&8» &e/nft lang <en/ru> &7- Change language"
+  help-stats: "&8» &e/nft stats [player] &7- View statistics"
+  help-top: "&8» &e/nft top &7- Top players by trample attempts"
+  help-reset: "&8» &e/nft reset &7- Reset all statistics"
+  help-info: "&8» &e/nft info &7- Plugin information"
+  help-warnmode: "&8» &e/nft warnmode &7- Toggle warn-only mode"
+  help-footer: "&6&l============================================="
+
+  # Language
+  lang-changed: "&aLanguage changed to &f%lang%&a!"
+  lang-not-found: "&cLanguage file '%lang%' not found!"
+
+  # Status words
+  enabled: "&2Enabled"
+  disabled: "&4Disabled"
+
+  # Statistics
+  stats-header: "&6&l========== Player Statistics =========="
+  stats-player: "&8» &ePlayer: &f%player%"
+  stats-attempts: "&8» &eTramplings prevented: &f%count%"
+  stats-footer: "&6&l======================================="
+  stats-no-data: "&7No statistics available for this player."
+
+  # Top
+  top-header: "&6&l======= Top Farmland Tramplers ======="
+  top-entry: "&e%rank%. &f%player% &7- &c%count% &7attempts"
+  top-empty: "&7No statistics available yet."
+  top-footer: "&6&l======================================="
+
+  # Reset
+  reset-success: "&aAll statistics have been reset!"
+  reset-confirm: "&cType &e/nft reset confirm &cto confirm the reset!"
+
+  # Info
+  info-header: "&6&l=========== NoFarmTrample Info ==========="
+  info-name: "&8» &eName: &fNoFarmlandTrample"
+  info-version: "&8» &eVersion: &f%version%"
+  info-author: "&8» &eAuthor: &fhiteex"
+  info-server: "&8» &eServer: &f%server%"
+  info-nms: "&8» &eNMS Version: &f%nms%"
+  info-java: "&8» &eJava: &f%java%"
+  info-supported: "&8» &eSupported: &f1.8 - 1.21+"
+  info-footer: "&6&l==========================================="
